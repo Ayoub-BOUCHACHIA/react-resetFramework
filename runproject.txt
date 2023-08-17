@@ -1,0 +1,3 @@
+python manage.py runserver
+python -m celery -A FirstprojectReactJs  worker -l INFO -E
+python -m celery -A FirstprojectReactJs beat --loglevel=info
